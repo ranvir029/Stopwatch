@@ -1,0 +1,85 @@
+.stopwatch {
+     border: 2px solid;
+     min-width: 23px;
+     max-width: 34vw;
+     text-align: center;
+     height: 23vh;
+     padding: 30px 18px;
+     min-height: 37vh;
+     align-content: center;
+     margin: 178px auto;
+     border-radius: 70px;
+  box-shadow: -1px -1px 17px aqua;
+  border: 1px solid beige;
+}
+
+
+.stopwatch h1 {
+     font-size: 42px;
+     margin: 0px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: lightseagreen;
+}
+
+#displayBox {
+     font-size: 5rem;
+     color: cornflowerblue;
+}
+
+#Content {
+     display: flex;
+     flex-wrap: nowrap;
+     align-content: center;
+     justify-content: center;
+     margin: 12px auto;
+     gap: 25px;
+
+}
+
+#Start {
+     height: 39px;
+     width: 86px;
+     font-size: 1.2em;
+     color: white;
+     background: #09c602;
+     border: none;
+     border-radius: 7px;
+     cursor: pointer;
+     box-shadow: 3px 3px 2px gray;
+}
+#Start:hover{
+      background:#08fc00;
+}
+
+
+#Stop {
+     height: 39px;
+     width: 86px;
+     font-size: 1.2em;
+     color: white;
+     background: #f12222;
+     border: none;
+     border-radius: 7px;
+     cursor: pointer;
+     box-shadow: 3px 3px 2px gray;
+
+}
+#Stop:hover{
+     background: #fd0000;
+}
+
+#Reset {
+     height: 39px;
+     width: 86px;
+     font-size: 1.2em;
+     color: white;
+     background: rgb(64, 210, 215);
+     border: none;
+     border-radius: 7px;
+     cursor: pointer;
+     box-shadow: 3px 3px 2px gray;
+     transition: background-color 0.2s ease-out;
+}
+#Reset:hover{
+     background: rgb(16, 233, 241);
+}
